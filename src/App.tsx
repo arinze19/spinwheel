@@ -85,6 +85,11 @@ const Sty = {
   Analytics: styled.div`
     display: flex;
     gap: 52px;
+
+    // responsive for mobile
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
   `,
 };
 
